@@ -1,0 +1,94 @@
+{
+  "project": "IFAP - 农险期货智能定价系统",
+  "ai_agents_used": [
+    {
+      "agent_name": "Qwen-2.5",
+      "agent_type": "LLM对话助手",
+      "access_method": "API",
+      "usage_period": "2025年10月 - 2026年4月",
+      "primary_use": "代码生成与调试"
+    },
+    {
+      "agent_name": "GLM-4",
+      "agent_type": "LLM对话助手",
+      "access_method": "API",
+      "usage_period": "2025年11月 - 2026年4月",
+      "primary_use": "算法设计与文档撰写"
+    },
+    {
+      "agent_name": "MiniMax",
+      "agent_type": "LLM对话助手",
+      "access_method": "API",
+      "usage_period": "2026年1月 - 2026年4月",
+      "primary_use": "数据分析与可视化"
+    }
+  ],
+  "interaction_sessions": [
+    {
+      "session_id": "session_001",
+      "date": "2025-10-15",
+      "agent": "Qwen-2.5",
+      "task": "项目架构设计",
+      "user_input": "请帮我设计一个基于因果推断的农险期货定价系统的Python项目架构，需要包含数据加载、因果发现、定价模型、风险评估等模块",
+      "agent_output": "建议采用data/models/utils/visualization四层架构，data层负责数据IO和特征工程，models层实现PC算法和定价模型，utils层提供配置和缓存，visualization层独立渲染图表",
+      "human_modification": "采纳了四层架构建议，但增加了Agri-PC三重约束增强模块和五重因果验证模块",
+      "adoption_rate": "70%"
+    },
+    {
+      "session_id": "session_002",
+      "date": "2025-11-20",
+      "agent": "GLM-4",
+      "task": "PC算法实现",
+      "user_input": "请帮我实现PC因果发现算法的骨架发现和V结构定向阶段",
+      "agent_output": "提供了基于偏相关检验的条件独立性测试和标准V结构定向代码",
+      "human_modification": "增加了HSIC非线性检验、Agri-PC三重约束增强、Bootstrap稳定性验证和Placebo安慰剂检验",
+      "adoption_rate": "50%"
+    },
+    {
+      "session_id": "session_003",
+      "date": "2025-12-10",
+      "agent": "Qwen-2.5",
+      "task": "XGBoost定价模型开发",
+      "user_input": "请帮我实现一个基于XGBoost的期货定价模型，需要包含CAPM风险溢价计算和滚动窗口验证",
+      "agent_output": "提供了XGBoost基础模型和滚动窗口验证代码",
+      "human_modification": "增加了鲁棒标准化(MAD)、动态系数调整、消融实验、基线对比、纯预测验证和lag vs pure对比分析",
+      "adoption_rate": "40%"
+    },
+    {
+      "session_id": "session_004",
+      "date": "2026-01-15",
+      "agent": "MiniMax",
+      "task": "数据可视化与Streamlit界面",
+      "user_input": "请帮我设计Streamlit应用界面，需要展示因果图、定价结果、风险评估等12个功能模块",
+      "agent_output": "提供了Streamlit多Tab布局和Plotly图表代码",
+      "human_modification": "重新设计了暗色主题UI，增加了3D增强可视化和交互式因果图探索功能",
+      "adoption_rate": "45%"
+    },
+    {
+      "session_id": "session_005",
+      "date": "2026-03-01",
+      "agent": "GLM-4",
+      "task": "五重因果验证体系",
+      "user_input": "请帮我实现PSM、S-Learner、T-Learner、DML、IV五种因果效应估计方法，并设计共识分析机制",
+      "agent_output": "提供了五种方法的基础实现和简单投票机制",
+      "human_modification": "增强了DML为TimeSeriesSplit交叉拟合、IV增加了弱IV检验和Hausman检验、共识分析改为100分制评分体系",
+      "adoption_rate": "35%"
+    },
+    {
+      "session_id": "session_006",
+      "date": "2026-04-10",
+      "agent": "Qwen-2.5",
+      "task": "ACML保形预测与CCP模块",
+      "user_input": "请帮我实现因果增强的保形预测定价模块",
+      "agent_output": "提供了标准保形预测代码",
+      "human_modification": "增加了因果加权残差、自适应分位数调整和CCP模块",
+      "adoption_rate": "30%"
+    }
+  ],
+  "summary": {
+    "total_sessions": 6,
+    "total_interactions": 50,
+    "average_adoption_rate": "45%",
+    "note": "AI工具主要用于代码生成和算法设计参考，所有核心创新点均为团队独立设计并手动实现。AI生成的代码均经过人工审查、修改和测试验证。"
+  }
+}
