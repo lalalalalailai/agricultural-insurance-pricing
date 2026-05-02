@@ -1,0 +1,14 @@
+============================================================
+  Agri-Futures Pricing System - Startup Log
+  Time: 2026/05/02 周六 21:39:45.70
+  Dir:  D:\智能化开发应用\2026四川大学生计算机竞赛\428大学生竞赛\03_源码及说明
+  User: llllj
+  PC:   JGBOOK
+============================================================
+[2026/05/02 周六 21:39:45.70] [INFO] Checking environment... 
+[2026/05/02 周六 21:39:45.82] [INFO] Python found: Python 3.11.9 
+[2026/05/02 周六 21:39:45.83] [INFO] Core file OK: src\app.py 
+[2026/05/02 周六 21:39:46.50] [INFO] Streamlit dependency OK 
+[2026/05/02 周六 21:39:46.61] [INFO] Port 8501 ready 
+[2026/05/02 周六 21:39:46.61] [INFO] All checks passed, starting server... 
+[2026/05/02 周六 21:39:46.62] [INFO] Running: python -m streamlit run src/app.py --server.port 8501 --browser.gatherUsageStats false --server.headless=false 
