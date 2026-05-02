@@ -1,0 +1,14 @@
+============================================================
+  Agri-Futures Pricing System - Startup Log
+  Time: 2026/04/23 周四 14:55:33.71
+  Dir:  D:\智能化开发应用\2026四川大学生计算机竞赛\农险期货智能定价模型_提交包_20260423\03_源码及说明
+  User: llllj
+  PC:   JGBOOK
+============================================================
+[2026/04/23 周四 14:55:33.71] [INFO] Checking environment... 
+[2026/04/23 周四 14:55:33.85] [INFO] Python found: Python 3.11.9 
+[2026/04/23 周四 14:55:33.85] [INFO] Core file OK: src\app.py 
+[2026/04/23 周四 14:55:34.57] [INFO] Streamlit dependency OK 
+[2026/04/23 周四 14:55:34.71] [INFO] Port 8501 ready 
+[2026/04/23 周四 14:55:34.71] [INFO] All checks passed, starting server... 
+[2026/04/23 周四 14:55:34.72] [INFO] Running: python -m streamlit run src/app.py --server.port 8501 --browser.gatherUsageStats false --server.headless=false 
