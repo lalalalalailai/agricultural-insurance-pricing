@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data cache - do not push large data files
+src/cache/*.pkl
+*.pkl
+data/futures/
+data/macro/
+data/weather/
+data/remote_sensing/
+
+# Logs
+*.log
+logs/
+
+# Sensitive
+*.env
+*.key
+*.pem
+secrets/
+.streamlit/secrets.toml
+
+# Test artifacts
+.pytest_cache/
+.coverage
+
+# Jupyter
+.ipynb_checkpoints/
