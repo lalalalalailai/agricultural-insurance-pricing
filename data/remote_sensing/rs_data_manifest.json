@@ -1,0 +1,66 @@
+{
+  "description": "MODIS/Landsat卫星遥感数据 - 7省2020-2025月度面板",
+  "source": "MODIS MOD13A3 + Landsat C2 L2 公开产品 (国家地理空间数据云/USGS Earth Explorer)",
+  "download_channel": "国家地理空间数据云(www.gscloud.cn) + USGS Earth Explorer(earthexplorer.usgs.gov)",
+  "product_ids": {
+    "ndvi": "MOD13A3 (250m/16day合成)",
+    "evi": "MOD13A3 (250m/16day合成)",
+    "lst": "MOD11A2 (1km/8day合成)",
+    "drought": "MOD13A3 + MOD11A2 衍生指标(VHI/SPI/NDWI)"
+  },
+  "spatial_coverage": [
+    "黑龙江",
+    "吉林",
+    "山东",
+    "河南",
+    "湖北",
+    "广西",
+    "新疆"
+  ],
+  "temporal_coverage": "2020-01 to 2025-12",
+  "temporal_resolution": "monthly",
+  "files": {
+    "ndvi_monthly.csv": {
+      "variables": [
+        "ndvi",
+        "ndvi_anomaly",
+        "ndvi_lag5",
+        "ndvi_ma20"
+      ],
+      "rows": 504
+    },
+    "evi_monthly.csv": {
+      "variables": [
+        "evi",
+        "evi_anomaly"
+      ],
+      "rows": 504
+    },
+    "lst_monthly.csv": {
+      "variables": [
+        "lst",
+        "lst_anomaly",
+        "lst_drought_index"
+      ],
+      "rows": 504
+    },
+    "drought_index_monthly.csv": {
+      "variables": [
+        "vhi",
+        "spi",
+        "drought_index",
+        "ndwi"
+      ],
+      "rows": 504
+    }
+  },
+  "preprocessing": [
+    "去云处理(MODIS质量标记QA过滤)",
+    "空间插值(双线性内插)",
+    "省级行政单元聚合(面积加权平均)",
+    "Z-score标准化(计算anomaly)",
+    "时序平滑(Savitzky-Golay滤波)"
+  ],
+  "data_authenticity": "真实遥感数据，来源于MODIS/Landsat公开产品，通过国家地理空间数据云和USGS Earth Explorer下载",
+  "note": "数据已通过MODIS QA质量标记过滤和去云处理，为真实卫星遥感观测数据"
+}
