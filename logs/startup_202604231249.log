@@ -1,0 +1,16 @@
+============================================================
+  Agri-Futures Pricing System - Startup Log
+  Time: 2026/04/23 周四 12:49:54.57
+  Dir:  D:\智能化开发应用\2026四川大学生计算机竞赛\农险期货智能定价模型_最终提交\04_源码及说明\deploy_streamlit_cloud
+  User: llllj
+  PC:   JGBOOK
+============================================================
+[2026/04/23 周四 12:49:54.58] [INFO] Checking environment... 
+[2026/04/23 周四 12:49:54.74] [INFO] Python found: Python 3.11.9 
+[2026/04/23 周四 12:49:54.74] [INFO] Core file OK: src\app.py 
+[2026/04/23 周四 12:49:55.40] [INFO] Streamlit dependency OK 
+[2026/04/23 周四 12:49:55.56] [INFO] Port 8501 in use by PID 36508, killing... 
+[2026/04/23 周四 12:49:56.48] [INFO] Port 8501 in use by PID 36508, killing... 
+[2026/04/23 周四 12:49:58.09] [INFO] Port 8501 ready 
+[2026/04/23 周四 12:49:58.10] [INFO] All checks passed, starting server... 
+[2026/04/23 周四 12:49:58.13] [INFO] Running: python -m streamlit run src/app.py --server.port 8501 --browser.gatherUsageStats false --server.headless=false 
