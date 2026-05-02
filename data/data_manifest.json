@@ -1,0 +1,286 @@
+{
+  "report_info": {
+    "generated_at": "2026-04-06 10:43:47",
+    "script_name": "enhanced_data_fetcher.py",
+    "script_version": "2.0-enhanced",
+    "project": "农业保险期货项目"
+  },
+  "summary": {
+    "total_data_sources": 28,
+    "successful_sources": 28,
+    "failed_sources": 0,
+    "total_records": 40965,
+    "overall_quality_score": 99.99,
+    "time_range": "2020-01-01 ~ 2025-12-31"
+  },
+  "futures_data": {
+    "total_varieties": 16,
+    "dce_varieties": 8,
+    "czce_varieties": 6,
+    "shfe_varieties": 2,
+    "successful": 16,
+    "list": [
+      "M0",
+      "JD0",
+      "Y0",
+      "P0",
+      "C0",
+      "A0",
+      "CS0",
+      "LH0",
+      "CF0",
+      "SR0",
+      "AP0",
+      "CJ0",
+      "SA0",
+      "FG0",
+      "RU0",
+      "SP0"
+    ]
+  },
+  "other_data_sources": {
+    "spot_prices": 0,
+    "macro_indicators": 5,
+    "weather_regions": 7
+  },
+  "data_source_results": [
+    {
+      "source": "期货-豆粕(M0)",
+      "success": true,
+      "records": 1514,
+      "fields": 14,
+      "fetch_time": "2026-04-06 10:42:37",
+      "error": null
+    },
+    {
+      "source": "期货-鸡蛋(JD0)",
+      "success": true,
+      "records": 1514,
+      "fields": 14,
+      "fetch_time": "2026-04-06 10:42:38",
+      "error": null
+    },
+    {
+      "source": "期货-豆油(Y0)",
+      "success": true,
+      "records": 1514,
+      "fields": 14,
+      "fetch_time": "2026-04-06 10:42:39",
+      "error": null
+    },
+    {
+      "source": "期货-棕榈油(P0)",
+      "success": true,
+      "records": 1514,
+      "fields": 14,
+      "fetch_time": "2026-04-06 10:42:40",
+      "error": null
+    },
+    {
+      "source": "期货-玉米(C0)",
+      "success": true,
+      "records": 1514,
+      "fields": 14,
+      "fetch_time": "2026-04-06 10:42:42",
+      "error": null
+    },
+    {
+      "source": "期货-豆一(A0)",
+      "success": true,
+      "records": 1514,
+      "fields": 14,
+      "fetch_time": "2026-04-06 10:42:43",
+      "error": null
+    },
+    {
+      "source": "期货-玉米淀粉(CS0)",
+      "success": true,
+      "records": 1514,
+      "fields": 14,
+      "fetch_time": "2026-04-06 10:42:44",
+      "error": null
+    },
+    {
+      "source": "期货-生猪(LH0)",
+      "success": true,
+      "records": 1267,
+      "fields": 14,
+      "fetch_time": "2026-04-06 10:42:45",
+      "error": null
+    },
+    {
+      "source": "期货-棉花(CF0)",
+      "success": true,
+      "records": 1512,
+      "fields": 14,
+      "fetch_time": "2026-04-06 10:42:47",
+      "error": null
+    },
+    {
+      "source": "期货-白糖(SR0)",
+      "success": true,
+      "records": 1514,
+      "fields": 14,
+      "fetch_time": "2026-04-06 10:42:48",
+      "error": null
+    },
+    {
+      "source": "期货-苹果(AP0)",
+      "success": true,
+      "records": 1511,
+      "fields": 14,
+      "fetch_time": "2026-04-06 10:42:49",
+      "error": null
+    },
+    {
+      "source": "期货-红枣(CJ0)",
+      "success": true,
+      "records": 1514,
+      "fields": 14,
+      "fetch_time": "2026-04-06 10:42:50",
+      "error": null
+    },
+    {
+      "source": "期货-纯碱(SA0)",
+      "success": true,
+      "records": 1514,
+      "fields": 14,
+      "fetch_time": "2026-04-06 10:42:52",
+      "error": null
+    },
+    {
+      "source": "期货-玻璃(FG0)",
+      "success": true,
+      "records": 1514,
+      "fields": 14,
+      "fetch_time": "2026-04-06 10:42:53",
+      "error": null
+    },
+    {
+      "source": "期货-橡胶(RU0)",
+      "success": true,
+      "records": 1514,
+      "fields": 14,
+      "fetch_time": "2026-04-06 10:42:54",
+      "error": null
+    },
+    {
+      "source": "期货-纸浆(SP0)",
+      "success": true,
+      "records": 1514,
+      "fields": 14,
+      "fetch_time": "2026-04-06 10:42:55",
+      "error": null
+    },
+    {
+      "source": "宏观-CPI - 居民消费价格指数",
+      "success": true,
+      "records": 218,
+      "fields": 13,
+      "fetch_time": "2026-04-06 10:42:57",
+      "error": null
+    },
+    {
+      "source": "宏观-PPI - 工业生产者出厂价格指数",
+      "success": true,
+      "records": 242,
+      "fields": 4,
+      "fetch_time": "2026-04-06 10:42:58",
+      "error": null
+    },
+    {
+      "source": "宏观-M2 - 货币供应量",
+      "success": true,
+      "records": 218,
+      "fields": 10,
+      "fetch_time": "2026-04-06 10:42:59",
+      "error": null
+    },
+    {
+      "source": "宏观-GDP - 国内生产总值",
+      "success": true,
+      "records": 80,
+      "fields": 9,
+      "fetch_time": "2026-04-06 10:43:00",
+      "error": null
+    },
+    {
+      "source": "宏观-PMI - 制造业采购经理指数",
+      "success": true,
+      "records": 219,
+      "fields": 5,
+      "fetch_time": "2026-04-06 10:43:01",
+      "error": null
+    },
+    {
+      "source": "气象-东北_黑龙江",
+      "success": true,
+      "records": 2288,
+      "fields": 11,
+      "fetch_time": "2026-04-06 10:43:08",
+      "error": null
+    },
+    {
+      "source": "气象-东北_吉林",
+      "success": true,
+      "records": 2288,
+      "fields": 11,
+      "fetch_time": "2026-04-06 10:43:13",
+      "error": null
+    },
+    {
+      "source": "气象-华北_河南",
+      "success": true,
+      "records": 2288,
+      "fields": 11,
+      "fetch_time": "2026-04-06 10:43:21",
+      "error": null
+    },
+    {
+      "source": "气象-华北_山东",
+      "success": true,
+      "records": 2288,
+      "fields": 11,
+      "fetch_time": "2026-04-06 10:43:26",
+      "error": null
+    },
+    {
+      "source": "气象-华中_湖北",
+      "success": true,
+      "records": 2288,
+      "fields": 11,
+      "fetch_time": "2026-04-06 10:43:32",
+      "error": null
+    },
+    {
+      "source": "气象-华南_广西",
+      "success": true,
+      "records": 2288,
+      "fields": 11,
+      "fetch_time": "2026-04-06 10:43:41",
+      "error": null
+    },
+    {
+      "source": "气象-西北_新疆",
+      "success": true,
+      "records": 2288,
+      "fields": 11,
+      "fetch_time": "2026-04-06 10:43:46",
+      "error": null
+    }
+  ],
+  "data_source_descriptions": {
+    "futures": "AKShare (新浪财经) - 中国期货市场真实日度行情数据",
+    "spot_prices": "AKShare - 农业农村部/统计局农产品批发价格指数",
+    "macro_economy": "AKShare (国家统计局/中国人民银行) - 宏观经济指标",
+    "weather": "NASA POWER API - 全球气象观测数据 (温度/降水/湿度/辐射等)"
+  },
+  "important_notes": [
+    "本数据仅供学术研究使用，不构成任何投资建议",
+    "期货数据来自中国三大商品交易所官方行情",
+    "宏观经济数据来自国家统计局和中国人民银行官方发布",
+    "气象数据来自NASA地球观测系统，具有较高科学价值",
+    "如果某个数据源显示失败，可能是网络问题或API临时不可用",
+    "禁止将本数据用于商业用途或非法目的"
+  ]
+}
