@@ -1,0 +1,665 @@
+{
+  "统计时间": "2026-04-07 08:32:00",
+  "数据时间范围": "2020年1月至2025年12月",
+  "数据分类": {
+    "期货数据": {
+      "文件数": 36,
+      "总记录数": 53058,
+      "品种列表": [
+        {
+          "文件名": "A0_豆一.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "AP0_苹果.csv",
+          "记录数": 1511,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "C0_玉米.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "CF0_棉花.csv",
+          "记录数": 1512,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "CJ0_红枣.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "CS0_玉米淀粉.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "EB0_苯乙烯.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "EG0_乙二醇.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "FG0_玻璃.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "HC0_热卷.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "I0_铁矿石.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "J0_焦炭.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "JD0_鸡蛋.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "JM0_焦煤.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "L0_塑料.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "LH0_生猪.csv",
+          "记录数": 1267,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "M0_豆粕.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "MA0_甲醇.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "OI0_菜油.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "P0_棕榈油.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "PG0_LPG.csv",
+          "记录数": 1458,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "PK0_花生.csv",
+          "记录数": 1251,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "PP0_PP.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "RM0_菜粕.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "RU0_橡胶.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "SA0_纯碱.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "SF0_硅铁.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "SM0_锰硅.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "SP0_纸浆.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "SR0_白糖.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "SS0_不锈钢.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "TA0_PTA.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "UR0_尿素.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "V0_PVC.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "Y0_豆油.csv",
+          "记录数": 1514,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        },
+        {
+          "文件名": "ZC0_动力煤.csv",
+          "记录数": 639,
+          "字段": [
+            "date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume",
+            "hold",
+            "settle"
+          ]
+        }
+      ]
+    },
+    "宏观经济": {
+      "文件数": 14,
+      "总记录数": 3145,
+      "指标列表": [
+        {
+          "文件名": "fx_spot.csv",
+          "记录数": 25
+        },
+        {
+          "文件名": "fx_spot_quote.csv",
+          "记录数": 25
+        },
+        {
+          "文件名": "macro_china_consumer_goods_retail.csv",
+          "记录数": 203
+        },
+        {
+          "文件名": "macro_china_cpi.csv",
+          "记录数": 218
+        },
+        {
+          "文件名": "macro_china_cpi_monthly.csv",
+          "记录数": 357
+        },
+        {
+          "文件名": "macro_china_cpi_yearly.csv",
+          "记录数": 477
+        },
+        {
+          "文件名": "macro_china_czsr.csv",
+          "记录数": 210
+        },
+        {
+          "文件名": "macro_china_gdp.csv",
+          "记录数": 80
+        },
+        {
+          "文件名": "macro_china_gdzctz.csv",
+          "记录数": 199
+        },
+        {
+          "文件名": "macro_china_m2_yearly.csv",
+          "记录数": 395
+        },
+        {
+          "文件名": "macro_china_pmi.csv",
+          "记录数": 219
+        },
+        {
+          "文件名": "macro_china_ppi.csv",
+          "记录数": 242
+        },
+        {
+          "文件名": "macro_china_ppi_yearly.csv",
+          "记录数": 363
+        },
+        {
+          "文件名": "macro_china_shrzgm.csv",
+          "记录数": 132
+        }
+      ]
+    },
+    "气象数据": {
+      "文件数": 7,
+      "总记录数": 16016,
+      "地区列表": [
+        {
+          "文件名": "东北_吉林.csv",
+          "记录数": 2288,
+          "字段": [
+            "Unnamed: 0",
+            "date",
+            "temperature",
+            "precipitation",
+            "humidity"
+          ]
+        },
+        {
+          "文件名": "东北_黑龙江.csv",
+          "记录数": 2288,
+          "字段": [
+            "Unnamed: 0",
+            "date",
+            "temperature",
+            "precipitation",
+            "humidity"
+          ]
+        },
+        {
+          "文件名": "华中_湖北.csv",
+          "记录数": 2288,
+          "字段": [
+            "Unnamed: 0",
+            "date",
+            "temperature",
+            "precipitation",
+            "humidity"
+          ]
+        },
+        {
+          "文件名": "华北_山东.csv",
+          "记录数": 2288,
+          "字段": [
+            "Unnamed: 0",
+            "date",
+            "temperature",
+            "precipitation",
+            "humidity"
+          ]
+        },
+        {
+          "文件名": "华北_河南.csv",
+          "记录数": 2288,
+          "字段": [
+            "Unnamed: 0",
+            "date",
+            "temperature",
+            "precipitation",
+            "humidity"
+          ]
+        },
+        {
+          "文件名": "华南_广西.csv",
+          "记录数": 2288,
+          "字段": [
+            "Unnamed: 0",
+            "date",
+            "temperature",
+            "precipitation",
+            "humidity"
+          ]
+        },
+        {
+          "文件名": "西北_新疆.csv",
+          "记录数": 2288,
+          "字段": [
+            "Unnamed: 0",
+            "date",
+            "temperature",
+            "precipitation",
+            "humidity"
+          ]
+        }
+      ]
+    }
+  },
+  "汇总": {
+    "总文件数": 57,
+    "总记录数": 72219
+  }
+}
