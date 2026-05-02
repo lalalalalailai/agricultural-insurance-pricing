@@ -207,7 +207,7 @@ def render_demo_mode():
 def render_full_app():
     """完整模式 - 加载所有模块并运行完整应用"""
     try:
-        from app import *
+        import app
     except Exception as e:
         st.error(f"⚠️ 应用加载异常: {e}")
         st.code(traceback.format_exc())
