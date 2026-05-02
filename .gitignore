@@ -1,49 +1,83 @@
+# -*- coding: utf-8 -*-
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
 *.so
-*.egg-info/
-.eggs/
-dist/
+.Python
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # Virtual environments
 .env
 .venv
 env/
 venv/
+ENV/
 
 # IDE
 .vscode/
 .idea/
 *.swp
+*.swo
+*~
 
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Data cache - do not push large data files
-src/cache/*.pkl
-*.pkl
-data/futures/
-data/macro/
-data/weather/
-data/remote_sensing/
+# Data cache（排除缓存数据，部署时按需生成）
+cache/*.pkl
+data/raw/
+data/processed/
 
 # Logs
-*.log
 logs/
+*.log
 
-# Sensitive
+# Sensitive data（敏感信息绝不提交）
 *.env
 *.key
 *.pem
+credentials.json
 secrets/
-.streamlit/secrets.toml
+
+# Large binary files（Streamlit Cloud有1GB限制）
+*.mp4
+*.avi
+*.mov
+large_data_*.csv
+sample_data_*.csv
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
 
 # Test artifacts
 .pytest_cache/
 .coverage
+htmlcov/
+.tox/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Streamlit specific
+.streamlit/correlations*
